@@ -4,8 +4,6 @@ import React from "react";
 const Home = () => {
   return (
     <Center>
-      <Box />
-      <Spacer />
       <Circle
         align="center"
         size="40rem"
@@ -24,8 +22,6 @@ const Home = () => {
           </Text>
         </Stack>
       </Circle>
-      <Spacer />
-      <Box />
     </Center>
   );
 };

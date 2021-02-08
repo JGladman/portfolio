@@ -35,16 +35,16 @@ const About = ({ fixed }) => {
           <Box w="500px" fontSize="lg">
             <Text>
               My name is{" "}
-              <Text color="primary" as="em">
+              <Text color="white" as="em">
                 Jacob Gladman{" "}
               </Text>
               and I am a{" "}
-              <Text color="tertiary" as="em">
+              <Text color="white" as="em">
                 Full-Stack Developer{" "}
               </Text>{" "}
-              working out of Vaughan, Canada. I am passionate about developing
-              beautiful and performant web applications. I am currently studying{" "}
-              <Text color="secondary" as="em">
+              working out of Canada. I am passionate about developing beautiful
+              and performant web applications. I am currently studying{" "}
+              <Text color="white" as="em">
                 Computer Science
               </Text>{" "}
               at Queen's University and am graduating in 2023. My passions
@@ -67,7 +67,7 @@ const About = ({ fixed }) => {
               <Link
                 href="https://drive.google.com/file/d/1p5moAiHou_mAUeCdkJgXnT1CY7LaKvHq/view"
                 isExternal
-                color="primary"
+                color="tertiary"
               >
                 resume <Icon as={BiLinkExternal} />
               </Link>

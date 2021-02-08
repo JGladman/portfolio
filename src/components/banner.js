@@ -17,8 +17,8 @@ const Banner = ({ title }) => {
       </Text>
       <Spacer />
       <Square size="70px" bg="tertiary" />
-      <Square size="70px" bg="primary" />
-      <Square size="70px" bg="secondary" />
+      {/* <Square size="70px" bg="primary" />
+      <Square size="70px" bg="secondary" /> */}
     </Flex>
   );
 };

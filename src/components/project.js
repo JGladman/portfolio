@@ -54,7 +54,7 @@ const Project = ({
         <Accordion allowToggle>
           <AccordionItem>
             <h2>
-              <AccordionButton w="480px" bg="secondary">
+              <AccordionButton w="480px" bg="gray.700">
                 <Flex align="center" w="100%">
                   <Heading>{title}</Heading>
                   <Spacer />
@@ -85,7 +85,7 @@ const Project = ({
                     <List>{frontendItems}</List>
                   </Stack>
                 )}
-                <Link href={link} isExternal color="primary">
+                <Link href={link} isExternal color="tertiary">
                   {linkText} <Icon as={BiLinkExternal} />
                 </Link>
               </Stack>

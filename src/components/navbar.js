@@ -37,7 +37,7 @@ const Navbar = ({ fixed }) => {
           <Img fixed={fixed} style={{ width: "173px", height: "68px" }} />
         </Center>
         <Center mt="2rem" pl="2rem">
-          <Heading size="lg" color="primary">
+          <Heading size="lg" color="white">
             Jacob Gladman
           </Heading>
         </Center>
@@ -179,9 +179,9 @@ const Navbar = ({ fixed }) => {
       </Stack>
       <Spacer />
       <Flex>
-        <Square bg="tertiary" size="70px" />
-        <Square bg="primary" size="70px" />
-        <Square bg="secondary" size="70px" />
+        {/* <Square bg="gray.200" size="70px" />
+        <Square bg="gray.400" size="70px" />
+        <Square bg="gray.600" size="70px" /> */}
       </Flex>
     </Flex>
   );
