@@ -13,7 +13,7 @@ const Contact = () => {
         <Stack
           direction="column"
           boxShadow="dark-lg"
-          p={10}
+          p={20}
           rounded="2xl"
           bg="gray.700"
           color="white"
@@ -35,18 +35,18 @@ const Contact = () => {
             <Icon as={AiFillLinkedin} mr="10px" />
             https://www.linkedin.com/in/jacob-gladman/
           </Link>
-          <Link
+          {/* <Link
             href="https://www.instagram.com/jacobgladman32/"
             isExternal
             fontSize="24px"
           >
             <Icon as={AiOutlineInstagram} mr="10px" />
             https://www.instagram.com/jacobgladman32/
-          </Link>
+          </Link> */}
         </Stack>
       </Center>
 
-      <Box h="11vh" />
+      <Box h="15vh" />
     </Box>
   );
 };
