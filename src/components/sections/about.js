@@ -17,6 +17,7 @@ const About = ({ fixed }) => {
     <Center>
       {/* Make column for responsive design */}
       <Stack
+        className="card"
         direction="row"
         spacing={10}
         boxShadow="dark-lg"
@@ -35,16 +36,17 @@ const About = ({ fixed }) => {
           <Box w="500px" fontSize="lg">
             <Text>
               My name is{" "}
-              <Text color="white" as="em">
+              <Text color="white" as="b">
                 Jacob Gladman{" "}
               </Text>
               and I am a{" "}
-              <Text color="white" as="em">
+              <Text color="white" as="b">
                 Full-Stack Developer{" "}
               </Text>{" "}
-              working out of Canada. I am passionate about developing beautiful
-              and performant web applications. I am currently studying{" "}
-              <Text color="white" as="em">
+              working out of Vaughan ON, Canada. I am passionate about
+              developing beautiful and performant web applications. I am
+              currently studying{" "}
+              <Text color="white" as="b">
                 Computer Science
               </Text>{" "}
               at Queen's University and am graduating in 2023. My passions

@@ -17,7 +17,7 @@ import Contact from "../components/sections/contact";
 function IndexPage({ data }) {
   return (
     <ThemeProvider theme={customTheme}>
-      <Flex w="100%" bg="gray.800">
+      <Flex w="100%" bg="gray.700">
         <Navbar fixed={data.logo.childImageSharp.fixed} />
         <Stack ml="210px" w="100%" spacing={0}>
           <Section element="home" title="Home">
@@ -25,6 +25,9 @@ function IndexPage({ data }) {
           </Section>
           <Section element="about" title="About Me">
             <About fixed={data.headshot.childImageSharp.fixed} />
+          </Section>
+          <Section element="projects" title="Projects">
+            <Projects seekr={data.seekr.childImageSharp.fixed} />
           </Section>
           <Section element="experience" title="Experience">
             <Experience fixed={data.queens.childImageSharp.fixed} />
@@ -43,9 +46,7 @@ function IndexPage({ data }) {
               mysql={data.mysqlLogo.childImageSharp.fixed}
             />
           </Section>
-          <Section element="projects" title="Projects">
-            <Projects seekr={data.seekr.childImageSharp.fixed} />
-          </Section>
+
           <Section element="contact" title="Contact">
             <Contact />
           </Section>

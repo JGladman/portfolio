@@ -17,6 +17,7 @@ const Experience = ({ fixed }) => {
       <Stack direction="column" spacing={35}>
         <Stack direction="column" spacing={10}>
           <Stack
+            className="card"
             color="white"
             p={10}
             boxShadow="dark-lg"
@@ -32,6 +33,7 @@ const Experience = ({ fixed }) => {
             </Flex>
           </Stack>
           <Stack
+            className="card"
             color="white"
             p={10}
             boxShadow="dark-lg"
@@ -47,6 +49,7 @@ const Experience = ({ fixed }) => {
             </Flex>
           </Stack>
           <Stack
+            className="card"
             color="white"
             p={10}
             boxShadow="dark-lg"

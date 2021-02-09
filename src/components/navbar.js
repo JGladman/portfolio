@@ -100,6 +100,27 @@ const Navbar = ({ fixed }) => {
           color="gray.200"
         >
           <Link
+            to="projects"
+            spy={true}
+            smooth={true}
+            duration={300}
+            isDynamic={true}
+          >
+            <Flex direction="row" alignItems="center">
+              <Icon as={FaLaptopCode} mr={2} />
+              <Text>Projects</Text>
+            </Flex>
+          </Link>
+        </Button>
+        <Button
+          className="nav-item"
+          variant="link"
+          mr={10}
+          size="lg"
+          w="min-content"
+          color="gray.200"
+        >
+          <Link
             to="experience"
             spy={true}
             smooth={true}
@@ -130,27 +151,6 @@ const Navbar = ({ fixed }) => {
             <Flex direction="row" alignItems="center">
               <Icon as={FaCode} mr={2} />
               <Text>Skills</Text>
-            </Flex>
-          </Link>
-        </Button>
-        <Button
-          className="nav-item"
-          variant="link"
-          mr={10}
-          size="lg"
-          w="min-content"
-          color="gray.200"
-        >
-          <Link
-            to="projects"
-            spy={true}
-            smooth={true}
-            duration={300}
-            isDynamic={true}
-          >
-            <Flex direction="row" alignItems="center">
-              <Icon as={FaLaptopCode} mr={2} />
-              <Text>Projects</Text>
             </Flex>
           </Link>
         </Button>
