@@ -1,4 +1,4 @@
-import { Box, Circle, Text, Stack, Spacer, Center } from "@chakra-ui/react";
+import { Box, Circle, Text, Stack, Center } from "@chakra-ui/react";
 import React from "react";
 
 const Home = () => {

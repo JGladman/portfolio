@@ -85,9 +85,10 @@ const Project = ({
                     <List>{frontendItems}</List>
                   </Stack>
                 )}
-                <Link href={link} isExternal color="tertiary">
+                {/* <Link href={link} isExternal color="tertiary">
                   {linkText} <Icon as={BiLinkExternal} />
-                </Link>
+                </Link> */}
+                <Text>Pending deployment</Text>
               </Stack>
             </AccordionPanel>
           </AccordionItem>

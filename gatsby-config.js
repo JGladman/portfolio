@@ -9,5 +9,6 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     "@chakra-ui/gatsby-plugin",
+    `gatsby-plugin-react-helmet`,
   ],
 };

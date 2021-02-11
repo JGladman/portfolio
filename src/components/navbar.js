@@ -6,7 +6,6 @@ import {
   Center,
   Stack,
   Spacer,
-  Square,
   Box,
   Icon,
 } from "@chakra-ui/react";
@@ -22,7 +21,6 @@ import { FaLaptopCode } from "@react-icons/all-files/fa/FaLaptopCode";
 import { GrMail } from "@react-icons/all-files/gr/GrMail";
 
 const Navbar = ({ fixed }) => {
-  const [contact, setContact] = React.useState(false);
   return (
     <Flex
       pos="fixed"

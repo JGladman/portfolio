@@ -39,7 +39,7 @@ const Skills = ({
           <Heading mb={10}>Languages</Heading>
           <Flex>
             <Stack direction="column" align="center">
-              <Icon as={SiJavascript} w="100px" h="100px" color="tertiary" />
+              <Icon as={SiJavascript} w="100px" h="100px" color="#E8D44D" />
               <Text>Javascript</Text>
             </Stack>
             <Spacer />

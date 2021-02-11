@@ -1,10 +1,9 @@
-import { Center, Icon, Stack, Box, Flex, Link } from "@chakra-ui/react";
+import { Center, Icon, Stack, Box, Link } from "@chakra-ui/react";
 import React from "react";
 
 import { GrMail } from "@react-icons/all-files/gr/GrMail";
 import { AiFillGithub } from "@react-icons/all-files/ai/AiFillGithub";
 import { AiFillLinkedin } from "@react-icons/all-files/ai/AiFillLinkedin";
-import { AiOutlineInstagram } from "@react-icons/all-files/ai/AiOutlineInstagram";
 
 const Contact = () => {
   return (

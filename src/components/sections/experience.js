@@ -1,15 +1,5 @@
-import {
-  Box,
-  Circle,
-  Text,
-  Stack,
-  Spacer,
-  Center,
-  Heading,
-  Flex,
-} from "@chakra-ui/react";
+import { Text, Stack, Spacer, Center, Heading, Flex } from "@chakra-ui/react";
 import React from "react";
-import Img from "gatsby-image";
 
 const Experience = ({ fixed }) => {
   return (

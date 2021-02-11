@@ -3,7 +3,7 @@ import "../styles/index.css";
 import "focus-visible/dist/focus-visible";
 
 import customTheme from "../gatsby-plugin-chakra-ui/theme";
-import { ThemeProvider, Flex, Stack, Box } from "@chakra-ui/react";
+import { ThemeProvider, Flex, Stack } from "@chakra-ui/react";
 import Banner from "../components/banner";
 import Navbar from "../components/navbar";
 import Section from "../components/section";
@@ -13,10 +13,15 @@ import Experience from "../components/sections/experience";
 import Skills from "../components/sections/skills";
 import Projects from "../components/sections/projects";
 import Contact from "../components/sections/contact";
+import Helmet from "react-helmet";
 
 function IndexPage({ data }) {
   return (
     <ThemeProvider theme={customTheme}>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Jacob Gladman</title>
+      </Helmet>
       <Flex w="100%" bg="gray.700">
         <Navbar fixed={data.logo.childImageSharp.fixed} />
         <Stack ml="210px" w="100%" spacing={0}>
